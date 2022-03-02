@@ -1,3 +1,31 @@
-p {
-    color: yellow
+p,
+li,
+a,
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p,
+li,
+a,
+h2 {
+    font-size: 22px;
+}
+
+p,
+li,
+a {
+    color: darkgreen;
+}
+
+h1,
+h2 {
+    color: saddlebrown;
+    background-color: lightgreen;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
 }
